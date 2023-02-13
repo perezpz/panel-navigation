@@ -1,0 +1,37 @@
+{
+    "compilerOptions": {
+        "sourceMap": true,
+        "module": "esnext",
+        "target": "es5",
+        "moduleResolution": "node",
+        "jsx": "react",
+        "skipLibCheck": true,
+        "declaration": true,
+        "noEmit": true,
+        "allowSyntheticDefaultImports": true,
+        "lib": [
+            "dom",
+            "dom.iterable",
+            "esnext"
+        ],
+        "strict": false,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitAny": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "outDir": "./types",
+    },
+    "include": [
+        "src",
+    ],
+    "exclude": [
+        "node_modules",
+        "app",
+        "examples",
+        "src/*.test.ts",
+        "src/*.test.tsx",
+        "src/__mocks__"
+    ]
+}
